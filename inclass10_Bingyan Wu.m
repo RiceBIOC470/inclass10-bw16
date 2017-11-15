@@ -1,6 +1,12 @@
 %In this directory, you will find some example data, which is a 300x8
 %array stored in a .mat file. Image these are measurements for 300 genes are 8 different time
 %points
+%GB comments:
+1) 100
+2) 100 You are not completely wrong, but your rational is misleading. Just because that one eigenvalue is “significantly” larger than the rest, doesn’t mean that 1 dimension is sufficient to best explain the data. I suggest looking up the criteria in choosing the dimensionality to best explain data. 
+3) 70 Plots should consist of points within the space and not lines connecting data enteries. The line introduced in the image presents a false representation of the data. Also, the question asks to color code the clustering values. 
+4) 100 Same issue as 3, but won’t take points off. 
+overall: 93
 
 %1. Use matlab to perform pca on this data, getting the transformation
 %matrix, the transformed data, and the eigenvalues.
